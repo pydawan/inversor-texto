@@ -1,0 +1,29 @@
+{
+   "manifest_version": 2,
+
+   "name": "Inversor de Texto",
+
+   "version": "1.0",
+
+   "description": "Extensão que inverte textos facilmente.",
+
+   "homepage_url": "http://bytespace.wordpress.com/",
+
+   "author": "Thiago Alexandre Martins Monteiro (thicmp@gmail.com)",
+
+   "browser_action": {
+      "default_title": "Inversor de Textos",
+      "default_icon":  "img/text_document_128x128.png",
+      "default_popup": "background.html"
+    },
+
+    "icons": {
+      "19":  "img/text_document_19x19.png",
+      "48":  "img/text_document_48x48.png",
+      "256": "img/text_document_128x128.png"
+    },
+
+    "permissions": [
+        "http://bytespace.wordpress.com/"
+    ]
+}
